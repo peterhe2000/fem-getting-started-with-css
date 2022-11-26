@@ -53,6 +53,11 @@ a:hover {
     text-decoration: none;
 }
 
+.gradient {
+    background: linear-gradient(90deg, rgba(255, 23, 228, 1) 0%, rgba(134, 251, 251, 1) 100%);
+    height: 2px;
+}
+
 
 /* intro styles */
 
@@ -86,6 +91,9 @@ a:hover {
 
 
 /* contact section */
+.section-plum {
+    background-color: var(--plum);
+}
 
 #contact {
     width: 400px;
@@ -153,6 +161,8 @@ nav [class*="fa-"]:hover {
     color: white;
     padding: 0.5rem;
     border-radius: 5px;
+    font-family: var(--mono);
+    text-decoration: none;
 }
 
 .button:hover {
@@ -165,6 +175,7 @@ nav [class*="fa-"]:hover {
 
 footer {
     text-align: center;
+    padding: 4rem 0;
 }
 
 footer ul {
